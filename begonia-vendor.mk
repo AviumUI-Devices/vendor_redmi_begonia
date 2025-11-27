@@ -281,7 +281,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/redmi/begonia/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/redmi/begonia/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/redmi/begonia/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-mediatek.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -294,6 +293,7 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
+    vendor/redmi/begonia/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
@@ -306,7 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
-    vendor/redmi/begonia/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
     vendor/redmi/begonia/proprietary/vendor/etc/init/init.mfp-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mfp-daemon.rc \
@@ -595,24 +594,8 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
     vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
     vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6853v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6873v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v1.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6885v9c.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6893v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_90hz6885.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_gt9885v1.bin \
     vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
     vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6853v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6873v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885a1.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885af.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b0.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885b1.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6885v01.bin \
-    vendor/redmi/begonia/proprietary/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6893v01.bin \
     vendor/redmi/begonia/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
     vendor/redmi/begonia/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
     vendor/redmi/begonia/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
@@ -640,7 +623,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/gc2375beta_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc2375beta_mipi_raw_tuning.so \
     vendor/redmi/begonia/proprietary/vendor/lib/gc5035_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035_mipi_raw_IdxMgr.so \
     vendor/redmi/begonia/proprietary/vendor/lib/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc5035_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
@@ -659,7 +641,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.touch.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/sound_trigger.primary.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6785.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/thermal.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6785.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so \
@@ -931,12 +912,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libcam.ArcCamEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.ArcCamEngine.so \
@@ -1124,7 +1099,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeybox.so \
     vendor/redmi/begonia/proprietary/vendor/lib/libwvkeyboxext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvkeyboxext.so \
     vendor/redmi/begonia/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/redmi/begonia/proprietary/vendor/lib/modules/fmradio_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fmradio_drv.ko \
     vendor/redmi/begonia/proprietary/vendor/lib/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.so \
     vendor/redmi/begonia/proprietary/vendor/lib/ov02a10af_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10af_mipi_raw_IdxMgr.so \
     vendor/redmi/begonia/proprietary/vendor/lib/ov02a10af_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02a10af_mipi_raw_tuning.so \
@@ -1155,6 +1129,7 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
+    vendor/redmi/begonia/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
@@ -1184,6 +1159,7 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
+    vendor/redmi/begonia/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/APUWareXrpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
@@ -1203,7 +1179,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib64/gc2375beta_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc2375beta_mipi_raw_tuning.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/gc5035_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035_mipi_raw_IdxMgr.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/gc5035_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc5035_mipi_raw_tuning.so \
-    vendor/redmi/begonia/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
@@ -1228,7 +1203,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.touch.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/sound_trigger.primary.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.mt6785.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/thermal.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.mt6785.so \
-    vendor/redmi/begonia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so \
@@ -1514,8 +1488,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
-    vendor/redmi/begonia/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
-    vendor/redmi/begonia/proprietary/vendor/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
@@ -1819,7 +1791,6 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.atms@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so \
     vendor/redmi/begonia/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so \
@@ -1915,6 +1886,8 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleCORTEXM4 \
     HotwordEnrollmentXGoogleCORTEXM4 \
     com.android.hotwordenrollment.common.util \
+    libshim_audio \
+    libui-v34 \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.gpu@1.0-service.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu.xml \
